@@ -5,16 +5,6 @@ import Create from './pages/Create'
 function App() {
   return (
     <Router>
-<<<<<<< HEAD
-      <Routes>
-        <Route exact path="/" element={<Notes />} />
-          
-        
-        <Route path="/create" element={<Create />} />
-          
-        
-      </Routes>
-=======
       <Switch>
         <Route exact path="/">
           <Notes />
@@ -23,7 +13,6 @@ function App() {
           <Create />
         </Route>
       </Switch>
->>>>>>> da91138be777f0e9924fb123af677400352c2c9b
     </Router>
   );
 }
