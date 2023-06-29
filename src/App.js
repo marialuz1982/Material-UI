@@ -8,7 +8,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Notes />} />
           
-       
+        
         <Route path="/create" element={<Create />} />
           
         
